@@ -76,14 +76,14 @@ export default function Counter() {
 
         <div className={styles.grid}>
     
-            <h2 className={inter.className}>
+            <h2 className={styles.descriptionText}>
               The number is:
             </h2>
-            <p className={inter.className}>
+            <p className={styles.number}>
               {number} 
             </p>
-            <button onClick={() => setNumber(number + 1)}>Increment</button>
-            <button onClick={() => setNumber(number - 1)}>Decrement</button>
+            <button className={styles.button2} onClick={() => setNumber(number + 1)}>Increment</button>
+            <button className={styles.button2} onClick={() => setNumber(number - 1)}>Decrement</button>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -91,10 +91,10 @@ export default function Counter() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h2 className={styles.descriptionText}>
               Deploy <span>-&gt;</span>
             </h2>
-            <p className={inter.className}>
+            <p className={styles.descriptionText2}>
               Instantly deploy your Next.js site to a shareable URL
               with&nbsp;Vercel.
             </p>

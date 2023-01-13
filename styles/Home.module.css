@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 12rem;
   min-height: 100vh;
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -16,7 +16,39 @@
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-  font-family: var(--font-mono);
+  font-family: arial;
+}
+
+.button {
+  background-color:#fff;
+  border:none;
+  width:100px;
+  height:50px;
+  border-radius:20px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.button:hover {
+  background-color:rgb(22, 56, 59);
+  color:#fff;
+  cursor:pointer;
+}
+
+.button2 {
+  background-color:#fff;
+  border:none;
+  width:140px;
+  height:30px;
+  border-radius:20px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.button2:hover {
+  background-color:rgb(22, 56, 59);
+  color:#fff;
+  cursor:pointer;
 }
 
 .description a {
@@ -24,6 +56,34 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+.inputBox {
+  border:none;
+  height:25px;
+  width:150px;
+  border-radius:15px;
+}
+
+.descriptionText {
+  font-size:16px;
+  text-transform:uppercase;
+}
+
+.descriptionText2 {
+  font-size:16px;
+  color:#000;
+}
+
+.number {
+  font-family:arial;
+  color:#000;
+}
+
+.title {
+  font-weight:600;
+  color:#fff;
+  text-transform:uppercase;
 }
 
 .description p {
@@ -37,7 +97,8 @@
 
 .code {
   font-weight: 700;
-  font-family: var(--font-mono);
+  font-family: arial;
+  text-transform:uppercase;
 }
 
 .grid {
@@ -266,6 +327,27 @@
   .logo,
   .thirteen img {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+
+  .button {
+    color:#000;
+  }
+
+  .inputBox {
+    background-color:#fff;
+    color:#000;
+  }
+
+  .button2 {
+    color:#000;
+  }
+
+  .number {
+    color:#fff;
+  }
+
+  .descriptionText2 {
+    color:#fff;
   }
 }
 
